@@ -12,8 +12,9 @@ namespace NepFlixApp.Controllers
         {
             return View();
         }
-        public ActionResult Index3()
+        public ActionResult Home()
         {
+            ViewBag.Message = "thuis met auth";
             return View();
         }
         public ActionResult Read()

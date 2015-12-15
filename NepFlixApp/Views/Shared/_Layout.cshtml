@@ -21,7 +21,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index3", "Home", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Home", "Home", "Home", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("Read", "Read", "Home", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("Read3", "Read3", "Home", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("API", "Index", "Help", new { area = "HelpPage" }, null)</li>
@@ -36,7 +36,7 @@
         @RenderSection("SPAViews", required: false)
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p style="align-content: center">&copy; @DateTime.Now.Year - NEPFLIX</p>
         </footer>
     </div>
 
